@@ -1,6 +1,6 @@
 # Cinnamon Chocolate Chip Cookies
 
-![Six large cookies on a plate](WebDevCW/Week_1/chocolate chip cookies.jpg)
+![Six large cookies on a plate](Week_1/chocolate chip cookies.jpg)
 
 ## Thick chocolate chip cookies with a secret ingredient-cinnamon!
 
@@ -20,9 +20,12 @@
 | 200 g | Semi-Sweet Chocolate Chips |
 | 200 g | Dark Chocolate Chips |
 
+## Instructions:
+
 1. Mix all the butter and sugar together in a bowl until well combined.
 2. Add in the eggs and vanilla, fully incorporating by scraping down the sides
 3. Carefully stir in the dry ingredients (flour, cornstarch, baking soda, salt, and ground cinnamon). Do not overmix.
 4. Add in all the chocolate chips. Refridgerate dough and preheat the oven to 375F.
 5. Line baking tray with parchment paper and space each cookie dough ball by about 3 inches.
 6. Keep dough refridgerated in between tray loading.
+7. Top each cookie with a light dusting of salt.
