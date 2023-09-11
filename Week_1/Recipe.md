@@ -1,6 +1,6 @@
 # Cinnamon Chocolate Chip Cookies
 
-![Six large cookies on a plate](Week_1/chocolate chip cookies.jpg)
+![Six large cookies on a plate](WebDevDW/Week_1/chocolate chip cookies.jpg "Cinnamon Chocolate Chip Cookies")
 
 ## Thick chocolate chip cookies with a secret ingredient-cinnamon!
 
