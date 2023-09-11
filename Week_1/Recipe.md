@@ -1,6 +1,6 @@
 # Cinnamon Chocolate Chip Cookies
 
-![Six large cookies on a plate](WebDevDW/Week_1/chocolate chip cookies.jpg "Cinnamon Chocolate Chip Cookies")
+![Six large cookies on a plate]([WebDevDW/Week_1/chocolate chip cookies.jpg "Cinnamon Chocolate Chip Cookies"](https://github.com/akisegis/WebDevCW/blob/291bafba93780436efe6b6d01c4287d3d9bd661b/Week_1/chocolate%20chip%20cookies.jpg))
 
 ## Thick chocolate chip cookies with a secret ingredient-cinnamon!
 
