@@ -5,16 +5,32 @@
   <meta name="viewport" content= "width=device-width, initial-scale=1" />
   <title> Layout 2 </title>
   <style type="text/css"> 
+    
     main{
       width: 960px;
       margin: 0 auto;
     }
+    
     .clearfix::after{
       display: block;
       clear: both;
       height:0;
       font-size: 0;
       content: '';
+      visibility: hidden;
+    }
+    
+    article.col-pixels section{
+      width: 300px;
+      margin: 0 10px;
+      float: left;
+    }
+    
+    article.col-fluid section{
+      width: 20%;
+      margins: 2.5%;
+      float: left;
+    }
   </style>
 </head>
  
@@ -24,7 +40,7 @@
     </header>
     <main>
       <h1> Article 1: Pixel-based </h1>
-    <article>
+    <article class="col-pixels clearfix">
       <h3> Article with 4 vertical sections </h3>
       <section> <h3> Section 1 </h3> </section>
       <section> <h3> Section 2 </h3> </section>
@@ -32,7 +48,7 @@
     </article>
     </main>
     <h1> Article 2: Percent-based </h1>
-    <article>
+    <article class= "col-fluid clearfix">
       <h3> Article with 4 vertical sections </h3>
       <section> <h3> Section 1 </h3> </section>
       <section> <h3> Section 2 </h3> </section>
@@ -40,7 +56,7 @@
       <section> <h3> Section 4 </h3> </section>
     </article>
     <footer>
-      
+      text for footer
     </footer>
   </body>
 </html>
