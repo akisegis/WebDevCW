@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset-"utf-8"/>
+  <meta name="viewport" content= "width=device-width, initial-scale=1" />
+  <title> Layout 1 </title>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+      div,
+      header,
+      footer,
+      section,
+      aside,
+      article,
+      main {
+        min-height: 100px;
+        background-color: rgba(0,100,255,0.2);
+      }
+      div.wrapper{
+        width: 900px;
+        /* center within browser */
+        margin: 0 auto;
+        /* margin-top: 1rem; */
+        padding: 30px;
+        border: 2px solid red;
+        border-color:
+        }
+    
+      article{
+        width: 600px;
+        float: left;
+        
+      }
+    
+      aside{
+        width: 300px;
+        float: left;
+        height: 400px;
+        background-color: rgba(255,0,0, 0.1);
+      }
+  
+    .clearfix{
+      height: 0;
+      
+      clear: both;
+    }
+  </style>
+</head>
+<body> 
+  <div class="wrapper">
+    <header>
+      big header
+    </header>
+    <main>
+      <h1> article 3 sections </h1>
+      <article>
+        <h2> article stuff </h2>
+        <section> <h3> Section 1 </h3></section>
+        <section> <h3> Section 2 </h3></section>
+        <section> <h3> Section 3 </h3></section>
+      </article>
+      <aside>
+        
+      </aside>
+    </main>
+</body>
