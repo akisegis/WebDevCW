@@ -20,6 +20,7 @@
         /* remove all bulletpoints */
         list-style-type: none;
         overflow: hidden; /* clips text that goes out of the bounds of set divs */
+        padding: 0;
         background-color: #999; /* you can use three digits to represent hexcodes that are six of the same character */
         /* make parent elements font size 0 to use in-line block */
         font-size: 0;
@@ -48,13 +49,57 @@
       li a:hover{
         background-color: #111;
         color: #FFF;
+      }
+
+      nav.fixed-nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      #abs{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        /* positioning is defined from the top left corner of a box */
+        /* z-index: -100; */
+      }
+
+      #rel{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        
+        position: relative;
+        top: 0;
+      }
+
+      #rel-parent{
+        width: 500px;
+        height: 500px;
+        background-color: purple;
+        position: relative;
+      }
+
+      #abs-child{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+
+        position: absolute;
+        right: 0;
         
       }
       
     </style>
   </head>
   <body>
-    <nav>
+    <nav class="fixed-nav">
       <ul>
         <li><a href="#" class="active"> Link 1 </li>
         <li><a href="#"> Link 2 </li>
@@ -62,5 +107,20 @@
         <li><a href="#"> Link 4 </li>        
       </ul>
     </nav>
+    <main>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus diam nulla, vitae posuere dui auctor a. Donec ullamcorper ac eros quis egestas. Curabitur imperdiet iaculis nunc eu gravida. Maecenas lobortis est vitae rhoncus gravida. Nunc sed nisi a metus varius dictum. Quisque orci sem, iaculis eget risus eu, sagittis interdum dui. Morbi ac egestas libero. Sed at volutpat felis. Donec lorem nunc, luctus in enim et, dictum fringilla urna. Mauris volutpat mattis mi quis elementum. Ut nec mattis mauris. Etiam metus sapien, consequat eget enim eget, hendrerit consectetur risus. Morbi aliquam euismod metus, at varius odio porttitor eget. Nullam suscipit, arcu ut ultrices ultrices, odio leo placerat sapien, ac vestibulum metus ex id enim. Etiam interdum velit sit amet mi bibendum, eu tristique lectus efficitur. Donec congue ullamcorper risus, in consectetur magna tincidunt id.</p>
+      <div id="abs">
+        Absolute position with no parent positioning effect
+      </div>
+      <div id="rel">
+        Relatove positioned div with no parent positioning div
+      </div>
+      <div id="rel-parent">
+        
+      </div>
+      <div id="abs-child">
+        
+      </div>
+    </main>
   </body>
 </html>
