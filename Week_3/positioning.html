@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Positioning Elements</title>
+   
+   <style type="text/css">
+     /*Make the semantic html element of footer stick to the bottom of the page*/
+     footer{
+     /*Make a full width, 50px high, blue footer to position*/
+     width:100%;
+     height:50px;
+     background-color: rgba(0,0,255,0.5);
+     /*top, left, right, and bottom properties will only work
+     if we first define the position property!
+     */
+     position:fixed;
+     bottom:0;
+     left:0;
+     }
+     
+   </style>
+  </head>
+  
+  <body>
+    <div>Just a plain unstyled div.</div>
+    <footer>This is the fixed footer.</footer>
+  </body>
+</html>
