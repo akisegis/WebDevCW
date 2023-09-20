@@ -2,3 +2,43 @@
 
 font-family: 'Kaushan Script', cursive;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.polaroid{
+  width: 240px;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.polaroid img{
+  width: 100px;
+  height: auto;
+  border: 10px solid cornsilk;
+  border-botto-width: 45px;
+}
+
+.polaroid p{
+  position: absolute;
+  text-align: center;
+  width: 240px;
+  bottom: 14px;
+  color: #888;
+}
+
+
+
+
