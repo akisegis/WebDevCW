@@ -1,3 +1,106 @@
 <!DOCTYPE html>
 
-/* css tricks (flexbox properties) */
+<!-- css tricks (flexbox properties) -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Media Queries and some flexbox </title>
+    <style type="text/css">
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      header.header-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: red;
+      }
+
+      h1{
+        margin: 0;
+      }
+
+      .main-nav ul{
+        list-style-type: none;
+        display: flex:
+        padding: 0;
+      }
+
+      .main-nav li{
+        text-align: center;
+      }
+
+      .main-nav a{
+        display: block;
+        width: 3rem;
+        padding: 2rem;
+      }
+
+      .flex-container-space-between{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        backround-color: rgba(0, 255,255,0.5);
+      }
+
+      .thumb{
+        height: 10rem;
+        width: 23%;
+        background-color: blue;
+        border: 1px solid red;
+      }
+      .flex-container-space-around{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem;
+        backround-color: rgba(0, 255,255,0.5);
+      }
+      /*tablet*/
+      @media only screen and (min-width:768px) and (max-width: 1024pc){
+        body{
+          background-color: green;
+        }
+
+        .thumb{
+          width:48%;
+          flex-grow: 0;
+          flex-shrink: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-flex">
+      <h1> Logo </h1>
+      <nav class="main-nav">
+        <li><a href="#"> Link 1 </li>
+      </nav>
+    </header>
+    <!-- flex container with justify content space between 4 wide pc/ 2 wide tablet/ 1 wide mobile -->
+    <div> class="flex-container-space-between" 
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+    </div>
+    <!-- flex container with justify content space around 4 wide pc/ 2 wide tablet/1 wide mobile -->
+    <div> class="flex-container-space-around" 
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+      <div> class="thumb" </div>
+    </div>
+
+
+    
+  </body>
+</html>
