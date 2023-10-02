@@ -8,10 +8,10 @@ Concept:
 Site Map: https://imgur.com/FeY5OlX
 
 Inspo Websites:
-    davidburn.com/
-    authory.com/GeoffWhiting
-    maysontaylor.journoportfolio.com/
-    jennifermurphy224.journoportfolio.com/
+    https://davidburn.com/
+    https://authory.com/GeoffWhiting
+    https://maysontaylor.journoportfolio.com/
+    https://jennifermurphy224.journoportfolio.com/
 
 Pinterest Mood Board: https://pin.it/1ZDOo0t
 
