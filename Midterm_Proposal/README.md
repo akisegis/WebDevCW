@@ -16,15 +16,13 @@ Inspo Websites:
 Pinterest Mood Board: https://pin.it/1ZDOo0t
 
 Concepts We've Learned:
-    1.
-    2.
-    3.
-    4.
-    5.
+   1. Nav Bar/Side Bar
+   2. Flexbox and content-awareness
+   3. Fonts, Margin, and Padding
+
 
 Concepts We Haven't Learned Yet:
-    1.
-    2.
-    3.
-    4.
-    5.
+    1. Playing video from link
+    2. Linking Statistics from various social media sites
+    3. Making blocks of text that aren’t uniform
+
