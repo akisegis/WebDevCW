@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Content Creator Portfolio Home Page Wireframe</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: white;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      header.header-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 2rem;
+      }
+
+      h1.article-title{
+        text-align: center;
+      }
+
+      .main-nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+      }
+
+      .main-nav li {
+        text-align: center;
+      }
+
+      .main-nav a {
+        display: block;
+        width: 5rem;
+        padding: 2rem;
+      }
+
+      .flex-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+      }
+
+      .space-between {
+        justify-content: space-between;
+        background-color: rgba(165, 165, 165, 0.5);
+      }
+
+      .space-around {
+        justify-content: space-around;
+        background-color: rgba(8, 8, 8, 0.5);
+      }
+
+      .thumb {
+        min-height: 10rem;
+        /* 4 thumbnails per row */
+        width: 23%;
+        background-color: rgb(87, 87, 90);
+        border: 1px solid rbga(255,0.5);
+      }
+
+      div.wrapper {
+        width: 900px;
+        /* use margin 0 auto to cetner our wrapper div within our browser window */
+        margin: 0 auto;
+        /* margin-top: 1rem; */
+        /* add a little bit of padding so we can see hoe child elements stack more clearly */
+        padding: 30px;
+        /* shorthand for border dimension, styles, color */
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-flex">
+        <!-- Logo on the left -->
+        <h1 class="logo"> onefivetoo's porfolio </h1>
+        <!-- Nav on the right -->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="./archive.html"><h2>Archive</h2></a></li>
+            <li><a href="./about.html"><h2>About</h2></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class= "article-title"> welcome to onefivetoo's portfolio </h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam, arcu sed dignissim tincidunt, nibh lorem ornare quam, nec sagittis dui enim non nulla. Duis hendrerit eu odio vel ultrices. Quisque neque velit, facilisis eget pretium nec, molestie at odio. Aenean a sagittis nulla, efficitur varius felis. Cras eget arcu eleifend mi suscipit egestas. Etiam ultricies magna dui, at eleifend turpis sollicitudin sit amet. Pellentesque ornare elit lectus, in dignissim tortor condimentum hendrerit. Phasellus ultrices ex quis neque auctor, ut laoreet mi gravida. Integer volutpat nulla sit amet erat venenatis elementum.</p>
+
+      
+      <h1 class= "article-title"> Top 8 Media Posts: </h1>
+      <!-- Flex container with justifty content space between: 4 wide on desktop, 2 on tablet, 1 on mobile -->
+      <div class="flex-container space-between">
+        <div class="thumb">
+          <img src="https://placehold.co/600x400" alt="placeholder image" />
+        </div>
+        <div class="thumb">
+          <img src="https://placehold.co/600x400" alt="placeholder image" />
+        </div>
+        <div class="thumb">
+          <img src="https://placehold.co/600x400" alt="placeholder image" />
+        </div>
+        <div class="thumb">
+          <img src="https://placehold.co/600x400" alt="placeholder image" />
+        </div>
+      </div>
+
+      <div class="flex-container space-between">
+          <div class="thumb">
+            <img src="https://placehold.co/600x400" alt="placeholder image" />
+          </div>
+          <div class="thumb">
+            <img src="https://placehold.co/600x400" alt="placeholder image" />
+          </div>
+          <div class="thumb">
+            <img src="https://placehold.co/600x400" alt="placeholder image" />
+          </div>
+          <div class="thumb">
+            <img src="https://placehold.co/600x400" alt="placeholder image" />
+          </div>
+        </div>
+
+    </div>
+  </body>
+</html>

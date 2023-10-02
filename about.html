@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Content Creator Portfolio About Page Wireframe </title>
+    <style type="text/css">
+      body {
+        margin: 0;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        background-color: white;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      header.header-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 2rem;
+      }
+
+      h1.article-title{
+        text-align: center;
+      }
+
+      .main-nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+      }
+
+      .main-nav li {
+        text-align: center;
+      }
+
+      .main-nav a {
+        display: block;
+        width: 5rem;
+        padding: 2rem;
+      }
+
+      .flex-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2rem;
+      }
+
+      .space-between {
+        justify-content: space-between;
+        background-color: rgba(165, 165, 165, 0.5);
+      }
+
+      .space-around {
+        justify-content: space-around;
+        background-color: rgba(8, 8, 8, 0.5);
+      }
+
+      .thumb {
+        min-height: 10rem;
+        /* 4 thumbnails per row */
+        width: 23%;
+        background-color: rgb(87, 87, 90);
+        border: 1px solid rbga(255,0.5);
+      }
+
+      main {
+        min-height: 100px;
+        /* RGBA red green blue alpha 0-1 */
+        background-color: rgba(110, 110, 110, 0.2);
+      }
+
+      div.wrapper {
+        width: 900px;
+        /* use margin 0 auto to cetner our wrapper div within our browser window */
+        margin: 0 auto;
+        /* margin-top: 1rem; */
+        /* add a little bit of padding so we can see hoe child elements stack more clearly */
+        padding: 30px;
+        /* shorthand for border dimension, styles, color */
+      }
+
+      article {
+        width: 600px;
+        float: left;
+      }
+
+      aside {
+        width: 300px;
+        float: left;
+        height: 400px;
+        background-color: rgba(45, 41, 41, 0.1);
+      }
+
+      .clearfix {
+        height: 0;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header class="header-flex">
+            <!-- Logo on the left -->
+            <h1 class="logo"> onefivetoo's porfolio </h1>
+            <!-- Nav on the right -->
+            <nav class="main-nav">
+              <ul>
+                <li><a href="./index.html"><h2>Home</h2></a></li>
+                <li><a href="./archive.html"><h2>About</h2></a></li>
+              </ul>
+            </nav>
+          </header>
+      <main>
+        <h1>About</h1>
+        <article>
+          <section><h3>Section 1</h3></section>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam, arcu sed dignissim tincidunt, nibh lorem ornare quam, nec sagittis dui enim non nulla. Duis hendrerit eu odio vel ultrices. Quisque neque velit, facilisis eget pretium nec, molestie at odio. Aenean a sagittis nulla, efficitur varius felis. Cras eget arcu eleifend mi suscipit egestas. Etiam ultricies magna dui, at eleifend turpis sollicitudin sit amet. Pellentesque ornare elit lectus, in dignissim tortor condimentum hendrerit. Phasellus ultrices ex quis neque auctor, ut laoreet mi gravida. Integer volutpat nulla sit amet erat venenatis elementum.
+
+          </p>
+          <section><h3>Section 2</h3></section>
+          <p> Proin ac nibh urna. Sed luctus velit neque, ac ultrices felis fermentum sit amet. Etiam fringilla mi quis egestas sollicitudin. Mauris ut cursus enim, et suscipit felis. Pellentesque sodales finibus dapibus. Sed efficitur purus quam, non aliquet neque vestibulum et. In tempor rhoncus consectetur. Nullam quis ligula eget eros ultrices facilisis nec ut ipsum. Vivamus consequat vestibulum sagittis. Integer eu libero eu erat molestie dignissim. Morbi est justo, rutrum nec euismod at, consectetur sed quam. Quisque eu tellus non magna placerat accumsan sit amet vitae enim. Suspendisse in dolor in ante mattis vulputate lacinia quis risus.
+
+          </p>
+          <section><h3>Section 3</h3></section>
+          <p> Suspendisse luctus facilisis tellus, sed maximus nulla consequat ut. Donec a nisi a velit pharetra mollis non a ipsum. Praesent ac pretium metus. Fusce hendrerit libero ut diam commodo maximus. Proin eu metus sed nisl interdum pharetra ac eget erat. Vestibulum vulputate dapibus neque a ullamcorper. Proin pretium euismod libero. Mauris in sapien in felis suscipit finibus ut et lectus. Integer vitae sapien nulla. In consectetur massa libero, vel gravida libero euismod et. Donec nec vehicula odio. Sed placerat laoreet mauris a maximus. Cras ultricies sodales hendrerit.</p>
+        </article>
+        <aside>
+          <h2>Skills</h2>
+           <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+          </ul> 
+        </aside>
+        <!-- add an invisible element to clear both so
+          that our wrapper div actually wraps around out content -->
+        <br class="clearfix" />
+      </main>
+      <footer><h3>Contact: @onefivetoo on all platforms</h3></footer>
+    </div>
+  </body>
+</html>
