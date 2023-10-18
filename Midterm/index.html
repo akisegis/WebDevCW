@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Content Creator Portfolio Home Page Wireframe</title>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Trispace:wght@500&display=swap');
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Trispace, Helvetica, Arial, sans-serif;
+        background-color: rgba(1.6, 5.5, 15.3);
+      }
+
+      p {
+        color: white;
+        padding: 8%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      header.header-flex {
+        border: 3px solid white;
+        height: 7%;
+        overflow: hidden;
+        position: fixed; 
+        background-color: rgba(20.4, 27.5, 44.3);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 0;
+      }
+
+      h1 {
+        color: white;
+        margin: 0;
+        padding: 2%;
+      }
+
+      h1.article-title{
+        color: white;
+        background-color: rgba(20.4, 27.5, 44.3);
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-right: 25%;
+        padding-left: 25%;
+        text-align: center;
+      }
+
+      .main-nav ul {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+      }
+
+      .main-nav li {
+        text-align: center;
+      }
+
+      .main-nav a:hover {
+        background: white;
+        color: rgba(20.4, 27.5, 44.3);
+      }
+
+      .main-nav a {
+        color: white;
+        display: block;
+        padding: 2rem;
+      }
+
+      .media-flex-container {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1%;
+        justify-content: space-around;
+        background-color: rgba(8, 8, 8, 0.5);
+      }
+
+      .thumb {
+        min-height: 10rem;
+        /* 4 thumbnails per row */
+        width: 23%;
+        border: 1px solid rbga(255,0.5);
+      }
+
+      div.wrapper {
+        background-color: rgba(1.6, 5.5, 15.3);
+        width: 90%;
+        margin: 0 auto;
+        padding: 1%;
+      }
+
+      @media only screen and (max-width:767px){
+        h1{
+          font-size: 15px;
+        }
+
+        h2{
+          font-size: 10px;
+        }
+        
+        header.header-flex{
+          width: 90%;
+          padding: 0;
+        }
+
+        footer{
+          width: 90%;
+          padding: 0;
+        }
+        
+        .media-flex-container {
+          width: 100%;
+          /* 1 thumbnail per row */
+          padding: 0;
+          flex-direction: column;
+        }
+        
+
+        .thumb {
+          width: 90%;
+          margin: 2rem 0;
+        }
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-flex">
+        <!-- Logo on the left -->
+        <a href="./index.html"><h1>onefivetoo</h1></a>
+        <!-- Nav on the right -->
+        <nav class="main-nav">
+          <ul>
+            <li><a href="./archive.html"><h2>archive</h2></a></li>
+            <li><a href="./about.html"><h2>about</h2></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class= "article-title"> welcome to onefivetoo's portfolio </h1>
+      <p> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam, arcu sed dignissim tincidunt, nibh lorem ornare quam, nec sagittis dui enim non nulla. Duis hendrerit eu odio vel ultrices. Quisque neque velit, facilisis eget pretium nec, molestie at odio. Aenean a sagittis nulla, efficitur varius felis. Cras eget arcu eleifend mi suscipit egestas. Etiam ultricies magna dui, at eleifend turpis sollicitudin sit amet. Pellentesque ornare elit lectus, in dignissim tortor condimentum hendrerit. Phasellus ultrices ex quis neque auctor, ut laoreet mi gravida. Integer volutpat nulla sit amet erat venenatis elementum.
+      </p>
+
+      
+      <h1 class= "article-title"> top eight media posts: </h1>
+      <!-- Flex container with justifty content space between: 4 wide on desktop, 2 on tablet, 1 on mobile -->
+      <div class="media-flex-container">
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">god gamer on lag fr <a href="https://t.co/EevaULLgyg">pic.twitter.com/EevaULLgyg</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1543678463474749441?ref_src=twsrc%5Etfw">July 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">5 days and 374 rr later.... <a href="https://t.co/mKtDvg4VNP">pic.twitter.com/mKtDvg4VNP</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1648029198982819840?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">never let em know your next move 🫡 <a href="https://t.co/eqXzZTWhyw">pic.twitter.com/eqXzZTWhyw</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1613234527068905482?ref_src=twsrc%5Etfw">January 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">its crazy to think that i only started competing and content creation 6 months ago. thank you so much and im excited to see what 2023 brings &lt;3 <a href="https://t.co/hCZCMTrHjs">pic.twitter.com/hCZCMTrHjs</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1609383775791726593?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </div>
+      </div>
+
+      <div class="media-flex-container">
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">uh i dont have one... <a href="https://t.co/nVrnunj8zW">pic.twitter.com/nVrnunj8zW</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1599912693716029440?ref_src=twsrc%5Etfw">December 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
+        </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">just try me. <a href="https://twitter.com/hashtag/VALORANT?src=hash&amp;ref_src=twsrc%5Etfw">#VALORANT</a> <a href="https://t.co/XgwyaKT2DG">pic.twitter.com/XgwyaKT2DG</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1710022445451682217?ref_src=twsrc%5Etfw">October 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">CRAZIEST PISTOL ROUND ACE EVER WOW OMG NEVER BEFORE SEEN OMG OMGOMGOMG <a href="https://t.co/kHaPL2qcgO">pic.twitter.com/kHaPL2qcgO</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1624193949924487171?ref_src=twsrc%5Etfw">February 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>          </div>
+        <div class="thumb">
+          <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">diffy <a href="https://t.co/FYia4qGoOz">pic.twitter.com/FYia4qGoOz</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1622078022365986817?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>          </div>
+      </div>
+      <footer><h3>Contact: @onefivetoo on all platforms</h3></footer>
+  </body>
+</html>
