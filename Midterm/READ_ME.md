@@ -1,1 +1,3 @@
-hehihih
+- As of right now, I have three pages that link together and resize. The main page features the most complete behavior. 
+- One takeaway I found was how to embed social media posts in flex boxes. If you create content for most popular social media sites, you can easily create embeds for your content that makes it so much easier to implement.
+- If given more time, I would've cleaned up the media queries for the archive and about pages. One thing I struggled with in particular when doing my media queries for these pages was the bottom nav bar and the asides. I would also like to brush up on how to handle articles and pay more attention to the titles of the articles in the about page.
