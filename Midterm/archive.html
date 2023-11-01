@@ -58,7 +58,6 @@
 
       h1.article-title{
         color: white;
-        background-color: rgba(20.4, 27.5, 44.3);
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         padding-right: 25%;
@@ -147,7 +146,14 @@
     </style>
   </head>
   <body>
+    <script>
+      function changeBackgroundColor(){
+        document.getElementById("title").style.backgroundColor = "orange";
+      }
+    </script>
+
     <div class="wrapper">
+      
       <header class="header-flex">
         <!-- Logo on the left -->
         <a href="./index.html"><h1>onefivetoo</h1></a>
@@ -160,7 +166,7 @@
         </nav>
       </header>
 
-      <h1 class= "article-title"> top eight media posts: </h1>
+      <div id = "title" onmouseover="changeBackgroundColor()"><h1 class= "article-title"> top eight media posts: </h1></div>>
       <!-- Flex container with justifty content space between: 4 wide on desktop, 2 on tablet, 1 on mobile -->
       <div class="media-flex-container">
         <div class="thumb">
