@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            About Aki Segismundo
+        </title>
+
+        <link rel="stylesheet" href="amStyles.css" media="screen">
+        <link href="/css/main.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Pixelify+Sans:wght@600&family=Titan+One&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <div class="bg-white"></div>
+    <body>
+        <div class="container-fluid pt-5">
+            <!--alignment issue:
+                originally, i had encountered many issues with alignment due to issues with flexbox and generally being lost.
+                i feel with bootstrap, i really solidified my understanding of css and html which really helped this page's 
+                development. i experimented with differnt layouts for this upper bit and i decided that two nested columns 
+                was best visually and spaced out most aesthetically.
+            -->
+            <div class="row gx-0 pt-5 d-flex justify-content-center">
+                <div class="col-xl-3">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <img src="./assets/akipic350.jpeg" class="rounded-circle mx-auto d-block">
+                        </div>
+                        <!-- stats progress bars:
+                            i noticed that there was a huge gap below my profile picture and i wanted to remedy that with a cute
+                            nod to older games i grew up with that had little status bars for different game mechanics. 
+                            this just uses the default progress bars to animate and display the intended design.
+                         -->
+                        <div class="col">
+                            <h4 class="text-center">stats</h4>
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:45%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="is it too bright in here?"><h4>awakeness</h4></a>
+        
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success border" style="width:90%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="another cup of coffee won't hurt"><h4>caffeine</h4></a>
+        
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:10%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="SLEEP IS FOR THE WEAK (wait no pls i need more sleep)"><h4>sleep</h4></a>
+        
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:25%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="its called *anxiety*"><h4>social battery</h4></a>
+        
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:99%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="I will prevail (over this finals season)"><h4>determination</h4></a>
+        
+                            <div class="progress border">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:100%"></div>
+                            </div>
+                            <a class="progress-text" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Can't say I didn't try B)"><h4>effort</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-xl-9">
+                    <div class="row row-cols-1">
+                        <div>
+                            <div class="text-center">
+                                <h1>
+                                    hello, my name is aki segismundo!
+                                </h1>
+                                <h1> <!-- psuedo header links -->
+                                    <small>
+                                        <a id= "cc" href='cc.html'>content creation</a> •
+                                        <a id= "vgd" href='vgd.html'>video game design</a> •
+                                        <a id= "mp" href='ap.html'>audio production</a> •
+                                        <a id= "am" href='index.html'>about me</a>
+                                    </small>  
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- bio + plans -->
+                        <div class="col-11">
+                            <!-- short bio -->
+                            <h2> short bio </h2>
+                            <p> Aki Segismundo is a Texas-born filipina with interests in interactive, audio, and social media. She is currently enrolled at New York University's Tandon School of Engineering and pursuing a bachelor's degree in Integrated Digital Media.</p>
+                            <!-- upcoming plans -->
+                            <h2> quick glance </h2>
+                            <div>
+                                <h3><a id= "cc" href='cc.html'>goals for 2024</a> </h3>
+                                <p>This will entail consistent posting of edited and stylized video content on YouTube from Twitch/YouTube streams</p>
+                                
+                                <h3>
+                                    <a id= "vgd" href='vgd.html'>everything/nothing</a>
+                                </h3>
+                                <p>
+                                    This short, text-based game is about confronting mortality and what it means to be alive while you are drifting in space. Originally developed as a final project for Creative Coding, this game will be further devloped in 2024.
+                                </p>
+                                <h3>
+                                    <a id= "mp" href='ap.html'>stella</a>
+                                </h3>
+                                <p>
+                                    This project was completed for audio foundation but is a delightful and joyful experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-5">
+            <!-- fun facts + skills + 4 truths 2 lies -->
+            <div class="row">
+                <div class="row">
+                    <!-- fun facts -->
+                    <div class="col-xl-4 bg-light">
+                        <h2>
+                            fun facts
+                        </h2>
+                        <ul>
+                            <li>i compete in valorant</li>
+                            <li>my favorite color is black/generally darker colors</li>
+                            <li>my favorite hobbies is playing video games and reading books</li>
+                            <li>i watch all types of tv as long as it has a good story</li>
+                        </ul>
+                    </div>
+                    <!-- skills -->
+                    <div class="col-xl-4 bg-light">
+                        <h2>skills</h2>
+                        <ul>
+                            <li>adobe suite (premiere, after effects, photoshop, illustrator)</li>
+                            <li>solidworks</li>
+                            <li>fusion360</li>
+                            <li>davinci resolve</li>
+                            <li>python, c++, java, javascript, processing, p5.js, bootstrap, html</li>
+                        </ul>
+                    </div>
+                    <!-- four truths and two lies with popovers: 
+                        before, i thought i had to use js functions to change the color of each item on click, which would've taken a lot of effort
+                        since bootstrap defaults exist. I, however, found a work around which allowed the user to hover over the links instead of
+                        plan list items to both trigger a popover that describes the item and tells whether its a truth or a lie. 
+                    -->
+                    <div class="col bg-light">
+                        <h2>
+                            four truths and two lies
+                        </h2>
+                        <ul>
+                            <li>            
+                                <a class="truth" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Truth! I accidentally did :/">i accidentally kicked a whale shark</a>
+                            </li>
+                            <li>            
+                                <a class="lie" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Lie! I have never and probably won't">i can whistle and made a song acapella</a>
+                            </li>
+                            <li>            
+                                <a class="truth" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content= "Truth! I love all animals but 'lil kitties have my heart">my favorite animal is a cat</a>
+                            </li>
+                            <li>            
+                                <a class="truth" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Truth! I love travelling">i've been to both alaska and hawaii</a>
+                            </li>
+                            <li>            
+                                <a class="lie" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Lie! I compete in Valorant but I truly love story-based singleplayer games like Baldur's Gate 3, Red Dead Redemption 2, and The Wolf Among Us">my favorite game is valorant</a>
+                            </li>
+                            <li>            
+                                <a class="truth" href="#" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Truth! It was in Texas :D (def did not win ;-;)">i have competed at a Valorant LAN tournament</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- popover js -->
+        <script>
+            <!-- popover js enabling for 4 t/ 2 l-->
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+              return new bootstrap.Popover(popoverTriggerEl)
+            })
+        </script>
+    </body>
+</html>

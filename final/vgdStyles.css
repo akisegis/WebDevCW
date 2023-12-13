@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*
+    general text styling
+*/
+
+h1, h2, h3 {
+    font-family: 'Titan One', sans-serif;
+}
+
+h3{
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+h4{
+    font-family:'Pixelify Sans', sans-serif;
+}
+
+p {
+    margin-left: 30px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 24px;
+}
+
+li {
+    /*margin-left: 30px;*/
+    font-family: 'Concert One', sans-serif;
+    font-size: 24px;
+}
+
+/*
+    psuedo nav-bar css styling
+*/
+#cc{ 
+    color: #E4C1F9;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #947da2,
+		1px -1px 0 #947da2,
+		-1px 1px 0 #947da2,
+		1px 1px 0 #947da2;
+}
+
+#vgd{
+    color: #D3F8E2;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #89a193,
+		1px -1px 0 #89a193,
+		-1px 1px 0 #89a193,
+		1px 1px 0 #89a193;
+}
+
+#mp{
+    color: #A9DEF9;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #6e90a2,
+		1px -1px 0 #6e90a2,
+		-1px 1px 0 #6e90a2,
+		1px 1px 0 #6e90a2;
+}
+
+#am{
+    color: #B4656F;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #532e33,
+		1px -1px 0 #532e33,
+		-1px 1px 0 #532e33,
+		1px 1px 0 #532e33;
+}
+
+#cc:hover, #vgd:hover, #mp:hover, #am:hover{
+    font-size: 30px;
+}

@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*
+    general text styling
+*/
+
+h1, h2, h3 {
+    font-family: 'Titan One', sans-serif;
+}
+
+h3{
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+h4{
+    font-family:'Pixelify Sans', sans-serif;
+}
+
+p {
+    margin-left: 30px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 24px;
+}
+
+li {
+    /*margin-left: 30px;*/
+    font-family: 'Concert One', sans-serif;
+    font-size: 24px;
+}
+
+/*
+    psuedo nav-bar css styling
+*/
+#cc{ 
+    color: #E4C1F9;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #947da2,
+		1px -1px 0 #947da2,
+		-1px 1px 0 #947da2,
+		1px 1px 0 #947da2;
+}
+
+#vgd{
+    color: #D3F8E2;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #89a193,
+		1px -1px 0 #89a193,
+		-1px 1px 0 #89a193,
+		1px 1px 0 #89a193;
+}
+
+#mp{
+    color: #A9DEF9;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #6e90a2,
+		1px -1px 0 #6e90a2,
+		-1px 1px 0 #6e90a2,
+		1px 1px 0 #6e90a2;
+}
+
+#am{
+    color: #B4656F;
+    text-decoration: none;
+    text-shadow:
+		-1px -1px 0 #532e33,
+		1px -1px 0 #532e33,
+		-1px 1px 0 #532e33,
+		1px 1px 0 #532e33;
+}
+
+#cc:hover, #vgd:hover, #mp:hover, #am:hover{
+    font-size: 30px;
+}
+
+/* all tab styling for the goals tabs */
+.tab {
+    overflow: hidden;
+    border: 3px solid #947da2;
+    background-color: #E4C1F9;
+  }
+  
+  /* buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* color of buttons on hover */
+  .tab button:hover {
+    background-color: #f4e5fc;
+  }
+  
+  /* active/current tablink class */
+  .tab button.active {
+    background-color: #947da2;
+  }
+  
+  /* tab content styling */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  /* fade mini animation */
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

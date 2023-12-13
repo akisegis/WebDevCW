@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Aki's Social Media Projects
+        </title>
+
+        <link rel="stylesheet" href="ccStyles.css" media="screen">
+        <link href="/css/main.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Pixelify+Sans:wght@600&family=Titan+One&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- pseudo nav bar -->
+            <div class="row row-cols-1 pt-5">
+                <div class="col text-center">
+                    <h1>
+                        hello, my name is aki segismundo!
+                    </h1>
+                    <h1>
+                        <small>
+                            <a id= "cc" href='cc.html'>content creation</a> •
+                            <a id= "vgd" href='vgd.html'>video game design</a> •
+                            <a id= "mp" href='ap.html'>audio production</a> •
+                            <a id= "am" href='index.html'>about me</a>
+                        </small>  
+                    </h1>
+                </div>
+            </div>
+            <!-- title for 3 media posts -->
+            <div class="row row-cols-1 pt-5">
+                <div class="col">
+                    <h2>top three media posts</h2>
+                </div>
+            </div>
+            <!-- gridding for 3 media posts -->
+            <div class="row">
+                <div class="col-xl-4">
+                    <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">god gamer on lag fr <a href="https://t.co/EevaULLgyg">pic.twitter.com/EevaULLgyg</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1543678463474749441?ref_src=twsrc%5Etfw">July 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
+                </div>
+                <div class="col-xl-4">
+                    <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">5 days and 374 rr later.... <a href="https://t.co/mKtDvg4VNP">pic.twitter.com/mKtDvg4VNP</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1648029198982819840?ref_src=twsrc%5Etfw">April 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
+                </div>
+                <div class="col-xl-4">
+                    <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">never let em know your next move 🫡 <a href="https://t.co/eqXzZTWhyw">pic.twitter.com/eqXzZTWhyw</a></p>&mdash; 152 🔪 (@onefivetoo) <a href="https://twitter.com/onefivetoo/status/1613234527068905482?ref_src=twsrc%5Etfw">January 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        
+                </div>
+            </div>
+            <!-- title for tabbed goals -->
+            <div class="row">
+                <div class="row row-cols-1 pt-5 text-center bg-light">
+                    <h2>goals for 2024</h2>       
+                </div>
+            </div>
+        </div>
+        <!-- 
+            tabs and content:
+            to be honest, i struggled with this a lot because a lot of it was difficult to grasp until i started looking at it like it was mini html pages
+            that i was linking together. the buttons are like little links i was using to navigate through pages and the contnet was the page. 
+        -->
+        <div class="d-flex justify-content-center tab">
+            <div>
+                <button class="tablinks" onclick="openGoal(event, 'Goal 1')"><h2>goal 1</h2></button>
+            </div>
+            <div>
+                <button class="tablinks" onclick="openGoal(event, 'Goal 2')"><h2>goal 2</h2></button>
+            </div>
+            <div>
+                <button class="tablinks" onclick="openGoal(event, 'Goal 3')"><h2>goal 3</h2></button>
+            </div>
+            
+          </div>
+          
+          <div id="Goal 1" class="tabcontent text-center bg-light">
+            <h3>Post consistently</h3>
+            <p>find a schedule that works for me, stick to it, and incorporate more than one platform</p>
+          </div>
+          
+          <div id="Goal 2" class="tabcontent text-center bg-light">
+            <h3>Prioritize short form content</h3>
+            <p>Try to find that balance of high amount of short form content and lower amount of long form content</p> 
+          </div>
+          
+          <div id="Goal 3" class="tabcontent text-center bg-light">
+            <h3>Have fun</h3>
+            <p>think about taking care of my mental health and building a great community</p>
+          </div>
+
+          <!-- all javascript functions -->
+        <script>
+            function openGoal(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
+    </body>
+</html>
