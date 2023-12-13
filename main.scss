@@ -1,0 +1,20 @@
+// custom variables
+
+// general stuff that helps on every page
+$body-bg: #fcf9d8;
+
+// helps with 4t/2l on index page
+$link-hover-decoration: underline;
+$popover-body-color: black;
+$popover-border-color: #9a9673;
+$popover-border-width: 3px;
+
+// helps with status progress bar on index page
+$progress-border-radius: 10px;
+$progress-box-shadow: 3px;
+
+$danger: #f5b4a5;
+$warning: #f6e6b2;
+$success: #bde1c2;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
